@@ -1,0 +1,4 @@
+clint>=0.41
+sh>=1.11
+paramiko>=1.15.2
+requests>=2.7.0

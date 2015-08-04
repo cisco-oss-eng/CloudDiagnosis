@@ -1,0 +1,26 @@
+
+{ 
+'servers':[
+		{'services': ['database', 'keystone','neutron_server','nova_api'],
+   	   		 'hostname': 'hostA', 
+  	   		 'ip_address': '1.1.1.1',
+	   		 'username': 'root',
+	   		 'password': 'root'
+  	 	}, 
+
+  	 	{'services': ['nova_compute'],
+   	   		 'hostname': 'hostB', 
+  	   		 'ip_address': '2.2.2,2',
+	   		 'username': 'root',
+	   		 'password': 'root'
+  	   	}, 
+	  ],
+'vip': '3.3.3.3',
+
+'keystone_db': { 'db_name': 'keystone',
+	       	 'username' : 'keystone',
+	       	 'password': 'abc'
+	       }
+
+
+}
